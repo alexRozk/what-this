@@ -5,18 +5,17 @@
 </head>
 
 <body>
-
 	<SCRIPT LANGUAGE="javascript">
 		code = prompt('Entrez le mot de passe');
-if (code != "1234")
-{
-		location.href="mauvaiscode.html";
-	}
-	else {
-			location.href="indice.html";
-		}
+		if (code === "1234")
+			{
+				location.href="indice.html";
+			}
+		else 
+			{
+				location.href="mauvaiscode.html";
+			}
 	</SCRIPT>
 	Voilà vous avez entrer le bon mot de passe
 </body>
-
 </html>
