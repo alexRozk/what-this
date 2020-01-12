@@ -6,14 +6,17 @@
 
 <body>
 
-<SCRIPT LANGUAGE="javascript">
-code = prompt('Entrez le mot de passe');
-if (code != "1234")//Remplacer votremotdepasse par le mot de passe que vous allez choisir...
-		{
-		location.href="mauvaiscode.html";//ici c'est la page où est redirigé le visiteur qui entre le mauvais mot de passe
+	<SCRIPT LANGUAGE="javascript">
+		code = prompt('Entrez le mot de passe');
+if (code != "1234")
+{
+		location.href="mauvaiscode.html";
+	}
+	else {
+			location.href="indice.html";
 		}
-</SCRIPT>
-Voilà vous avez entrer le bon mot de passe
+	</SCRIPT>
+	Voilà vous avez entrer le bon mot de passe
 </body>
 
 </html>
